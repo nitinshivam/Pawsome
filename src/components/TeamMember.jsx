@@ -1,5 +1,5 @@
 import React from "react";
-import nitin from "../assets/nitin.jpeg";
+import nitin from "../assets/Nitin.jpeg";
 import vishal from "../assets/Vishal4.png";
 import anshu from "../assets/Anshu.jpeg";
 import {
