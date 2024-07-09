@@ -3,7 +3,7 @@ import { fetchAppointmentsSuccess, fetchAppointmentsFailure } from '../features/
 export const fetchAppointments = (email) => {
   return async (dispatch) => {
     try {
-      const response = await fetch('http://localhost:3000/api/users/getAppointments', {
+      const response = await fetch('api/users/getAppointments', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
