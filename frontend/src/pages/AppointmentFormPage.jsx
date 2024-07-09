@@ -5,7 +5,7 @@ export const submitAppointmentForm = (formData) => {
   return async (dispatch) => {
     try {
       // Send a POST request to the backend endpoint with form data
-      const response = await fetch('http://localhost:3000/api/users/bookAppointment', {
+      const response = await fetch('api/users/bookAppointment', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
